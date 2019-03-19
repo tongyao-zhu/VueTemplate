@@ -14,9 +14,9 @@ cache:
 
 install:
  - npm install -g yarn
+ - npm install
 
 script:
- - npm run-script test
   - npm run-script build
 deploy:
  provider: pages
